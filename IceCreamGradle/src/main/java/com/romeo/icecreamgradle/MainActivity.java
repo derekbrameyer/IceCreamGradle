@@ -1,6 +1,6 @@
 package com.romeo.icecreamgradle;
 
-import com.romeo.icecreamgradle.flavor.FlavorActivity;
+import com.romeo.icecreamgradle.flav.FlavActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,7 +18,7 @@ public class MainActivity extends Activity {
     }
 
     public void showFlavor(View view){
-        Intent i = new Intent(this, FlavorActivity.class);
+        Intent i = new Intent(this, FlavActivity.class);
         startActivity(i);
     }
 

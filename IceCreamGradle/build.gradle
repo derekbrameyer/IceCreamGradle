@@ -21,14 +21,14 @@ android {
     compileSdkVersion 18
     buildToolsVersion "18.1.0"
     productFlavors {
-        chocolate {
-            packageName 'com.romeo.icecreamgradle.chocolate'
+        choc {
+            packageName 'com.romeo.icecreamgradle.choc'
         }
-        vanilla {
-            packageName 'com.romeo.icecreamgradle.vanilla'
+        vanill {
+            packageName 'com.romeo.icecreamgradle.vanill'
         }
-        strawberry {
-            packageName 'com.romeo.icecreamgradle.strawberry'
+        strawb {
+            packageName 'com.romeo.icecreamgradle.strawb'
         }
     }
     sourceSets {
@@ -46,28 +46,28 @@ android {
                 srcFile 'src/main/AndroidManifest.xml'
             }
         }
-        chocolate {
+        choc {
             java {
-                srcDir 'src/chocolate/java'
+                srcDir 'src/choc/java'
             }
             res {
-                srcDir 'src/chocolate/res'
+                srcDir 'src/choc/res'
             }
         }
-        vanilla {
+        vanill {
             java {
-                srcDir 'src/vanilla/java'
+                srcDir 'src/vanill/java'
             }
             res {
-                srcDir 'src/vanilla/res'
+                srcDir 'src/vanill/res'
             }
         }
-        strawberry {
+        strawb {
             java {
-                srcDir 'src/strawberry/java'
+                srcDir 'src/strawb/java'
             }
             res {
-                srcDir 'src/strawberry/res'
+                srcDir 'src/strawb/res'
             }
         }
     }

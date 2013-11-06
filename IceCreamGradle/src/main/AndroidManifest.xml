@@ -23,8 +23,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.romeo.icecreamgradle.flavor.FlavorActivity"
-            android:label="@string/title_activity_flavor"
+            android:name="com.romeo.icecreamgradle.flav.FlavActivity"
+            android:label="@string/title_activity_flav"
             android:parentActivityName="com.romeo.icecreamgradle.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
